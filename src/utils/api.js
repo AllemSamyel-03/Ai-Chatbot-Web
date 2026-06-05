@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/chat";
+const API_URL = "https://ai-chatbot-backend-gd1f.onrender.com";
 
 export const getAIResponse = async (messages) => {
   const response = await fetch(API_URL, {
