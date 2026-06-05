@@ -1,5 +1,5 @@
 const apiUrl = "https://openrouter.ai/api/v1/chat/completions";
-const API_KEY = import.meta.env.API_KEY;
+const API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 const model = "meta-llama/llama-3-8b-instruct";
 
 export const getAIResponse = async (messages) => {
